@@ -1,4 +1,6 @@
-<x-layout>
+@extends('layout')
+
+@section('content')
     <h1>{{ count($jobs) }} Available Jobs</h1>
     <ul>
         @forelse($jobs as $job)
@@ -7,4 +9,4 @@
             <p>No jobs available</p>
         @endforelse
     </ul>
-</x-layout>
+@endsection

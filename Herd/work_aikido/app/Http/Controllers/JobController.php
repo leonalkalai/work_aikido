@@ -74,8 +74,8 @@ class JobController extends Controller
     /**
      * about section
      */
-    public function about(): string
-    {
-        return "about";
-    }
+    // public function about(): string
+    // {
+    //     return "about";
+    // }
 }

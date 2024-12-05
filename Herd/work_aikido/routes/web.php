@@ -15,5 +15,6 @@ Route::get('/', [HomeController::class, 'index']);
 
 // Route::get('/jobs/{id}', [JobController::class, 'show']);
 // Route::post('/jobs', [JobController::class, 'store']);
-Route::get('/about', [JobController::class, 'about']);
+//Route::get('/about', [JobController::class, 'about']);
+Route::get('/about', [HomeController::class, 'about']);
 Route::resource('jobs', JobController::class);
